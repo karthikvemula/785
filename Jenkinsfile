@@ -4,7 +4,6 @@ node('master')
     stage('ContinuousDownload-loan') 
     {
        git 'https://github.com/selenium-saikrishna/maven.git'
-
     }
     stage('ContinuousBuild-loan') 
     {
